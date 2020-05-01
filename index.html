@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio v.1</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <!-- <script src="./scripts/script.js"></script> -->
   </head>
   <body>
     <!--Шапка сайта-->
     <header>
       <nav>
-        <a href="">Web Studio</a>
+        <a href="./index.html">Web Studio</a>
+
         <ul>
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
@@ -19,59 +21,53 @@
       </nav>
       <ul>
         <li>
-          <img src="./images/mail.svg" alt="mail" />
-          <a href="mail:info@devstudio.com">info@devstudio.com</a>
+          <img src="./images/mail.svg" alt="mail logo" />
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <img src="./images/phone.svg" alt="phone" />
+          <img src="./images/phone.svg" alt="phone logo" />
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <!--Герой-->
-      <section>
+
+      <section class="hero-section">
         <h1>эффективные решения для вашего бизнеса</h1>
         <a href="">Заказать услугу</a>
       </section>
+
       <!--Наши преимущества-->
       <section>
         <h2>Наши преимущества</h2>
         <ul>
           <li>
-            <img
-              src="./images/satellite.svg"
-              alt="Satellite"
-              class="sattellite"
-            />
+            <img src="./images/satellite.svg" alt="Satellite" />
             <h3>Внимание к деталям</h3>
             <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li>
             <img src="./images/clock.svg" alt="Clock" />
             <h3>Пунктуальность</h3>
             <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
             <img src="./images/laptop.svg" alt="Laptop" />
             <h3>Планирование</h3>
             <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
+              Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./images/spaceman.svg" alt="Spaceman" />
             <h3>Современные технологии</h3>
             <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
         </ul>
@@ -82,19 +78,19 @@
         <ul>
           <li>
             <a href="">
-              <img src="./images/desktopapps.png" alt="Desktop Apps" />
+              <img src="./images/desktopapps.jpg" alt="Desktop Apps" width="380" />
               <h3>Десктопные приложения</h3></a
             >
           </li>
           <li>
             <a href=""
-              ><img src="./images/mobileapps.png" alt="Mobile Apps" />
+              ><img src="./images/mobileapps.jpg" alt="Mobile Apps" width="380" />
               <h3>Мобильные приложения</h3></a
             >
           </li>
           <li>
             <a href="">
-              <img src="./images/designsolution.png" alt="Design Solutions" />
+              <img src="./images/designsolution.jpg" alt="Design Solutions" width="380" />
               <h3>Дизайнерские решения</h3></a
             >
           </li>
@@ -105,94 +101,78 @@
         <h2>Наша Команда</h2>
         <ul>
           <li>
-            <img src="./images/crewmate1.png" alt="Crewmate 1" />
-            <h3 lang="en">John Smith</h3>
-            <p lang="en">Product Designer</p>
+            <img src="./images/crewmate1.jpg" alt="Сотрудник 1" width="280" />
+            <h3>John Smith</h3>
+            <p>Product Designer</p>
             <ul>
               <li>
-                <a href=""
-                  ><img src="./images/instagram.svg" alt="Instagram"
-                /></a>
+                <a href="" aria-label="Ссылка на Инстаграм"><img src="./images/instagram.svg" alt="Лого Инстаграм" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter.svg" alt="Twitter" /></a>
+                <a href="" aria-label="Ссылка на Твиттер"><img src="./images/twitter.svg" alt="Лого Твиттер" /></a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook.svg" alt="Facebook"
-                /></a>
+                <a href="" aria-label="Ссылка на Фейсбук"><img src="./images/facebook.svg" alt="Лого Фейсбук" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/in.svg" alt="In" /></a>
+                <a href="" aria-label="Ссылка на Линкедин"><img src="./images/linkedin.svg" alt="Лого Линкедин" /></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/crewmate2.png" alt="Crewmate 2" />
-            <h3 lang="en">Marta Stewart</h3>
-            <p lang="en">Frontend Developer</p>
+            <img src="./images/crewmate2.jpg" alt="Сотрудник 2" width="280" />
+            <h3>Marta Stewart</h3>
+            <p>Frontend Developer</p>
             <ul>
               <li>
-                <a href=""
-                  ><img src="./images/instagram.svg" alt="Instagram"
-                /></a>
+                <a href="" aria-label="Ссылка на Инстаграм"><img src="./images/instagram.svg" alt="Лого Инстаграм" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter.svg" alt="Twitter" /></a>
+                <a href="" aria-label="Ссылка на Твиттер"><img src="./images/twitter.svg" alt="Лого Твиттер" /></a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook.svg" alt="Facebook"
-                /></a>
+                <a href="" aria-label="Ссылка на Фейсбук"><img src="./images/facebook.svg" alt="Лого Фейсбук" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/in.svg" alt="In" /></a>
+                <a href="" aria-label="Ссылка на Линкедин"><img src="./images/linkedin.svg" alt="Лого Линкедин" /></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/crewmate3.png" alt="Crewmate 3" />
-            <h3 lang="en">Robert Jakis</h3>
-            <p lang="en">Marketing</p>
+            <img src="./images/crewmate3.jpg" alt="Сотрудник 3" width="280" />
+            <h3>Robert Jakis</h3>
+            <p>Marketing</p>
             <ul>
               <li>
-                <a href=""
-                  ><img src="./images/instagram.svg" alt="Instagram"
-                /></a>
+                <a href="" aria-label="Ссылка на Инстаграм"><img src="./images/instagram.svg" alt="Лого Инстаграм" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter.svg" alt="Twitter" /></a>
+                <a href="" aria-label="Ссылка на Твиттер"><img src="./images/twitter.svg" alt="Лого Твиттер" /></a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook.svg" alt="Facebook"
-                /></a>
+                <a href="" aria-label="Ссылка на Фейсбук"><img src="./images/facebook.svg" alt="Лого Фейсбук" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/in.svg" alt="In" /></a>
+                <a href="" aria-label="Ссылка на Линкедин"><img src="./images/linkedin.svg" alt="Лого Линкедин" /></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/crewmate4.png" alt="Crewmate 4" />
-            <h3 lang="en">Martin Doe</h3>
-            <p lang="en">UI Designer</p>
+            <img src="./images/crewmate4.jpg" alt="Сотрудник 4" width="280" />
+            <h3>Martin Doe</h3>
+            <p>UI Designer</p>
             <ul>
               <li>
-                <a href=""
-                  ><img src="./images/instagram.svg" alt="Instagram"
-                /></a>
+                <a href="" aria-label="Ссылка на Инстаграм"><img src="./images/instagram.svg" alt="Лого Инстаграм" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter.svg" alt="Twitter" /></a>
+                <a href="" aria-label="Ссылка на Твиттер"><img src="./images/twitter.svg" alt="Лого Твиттер" /></a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook.svg" alt="Facebook"
-                /></a>
+                <a href="" aria-label="Ссылка на Фейсбук"><img src="./images/facebook.svg" alt="Лого Фейсбук" /></a>
               </li>
               <li>
-                <a href=""><img src="./images/in.svg" alt="In" /></a>
+                <a href="" aria-label="Ссылка на Линкедин"><img src="./images/linkedin.svg" alt="Лого Линкедин" /></a>
               </li>
             </ul>
           </li>
@@ -203,22 +183,22 @@
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
-            <a href=""><img src="./images/client1.svg" alt="Client 1" /></a>
+            <a href=""><img src="./images/client1.svg" alt="Клиент 1" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/client2.svg" alt="Client 2" /></a>
+            <a href=""><img src="./images/client2.svg" alt="Клиент 2" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/client3.svg" alt="Client 3" /></a>
+            <a href=""><img src="./images/client3.svg" alt="Клиент 3" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/client4.svg" alt="Client 4" /></a>
+            <a href=""><img src="./images/client4.svg" alt="Клиент 4" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/client5.svg" alt="Client 5" /></a>
+            <a href=""><img src="./images/client5.svg" alt="Клиент 5" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/client6.svg" alt="Client 6" /></a>
+            <a href=""><img src="./images/client6.svg" alt="Клиент 6" /></a>
           </li>
         </ul>
       </section>
@@ -226,43 +206,38 @@
     <!--Подвал-->
     <footer>
       <div>
-        <a href="">Web Studio</a>
+        <a href="./index.html">Web Studio</a>
         <address>
           <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <ul>
-            <li>
-              <a href="mail:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <br />
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
       <div>
         <p>присоединяйтесь</p>
         <ul>
           <li>
-            <a href=""><img src="./images/instagram.svg" alt="Instagram" /></a>
+            <a href="" aria-label="Ссылка на Инстаграм"><img src="./images/instagram.svg" alt="Лого Инстаграм" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/twitter.svg" alt="Twitter" /></a>
+            <a href="" aria-label="Ссылка на Твиттер"><img src="./images/twitter.svg" alt="Лого Твиттер" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/facebook.svg" alt="Facebook" /></a>
+            <a href="" aria-label="Ссылка на Фейсбук"><img src="./images/facebook.svg" alt="Лого Фейсбук" /></a>
           </li>
           <li>
-            <a href=""><img src="./images/in.svg" alt="In" /></a>
+            <a href="" aria-label="Ссылка на Линкедин"><img src="./images/linkedin.svg" alt="Лого Линкедин" /></a>
           </li>
         </ul>
       </div>
-      <form action="url">
+      <!-- <form action="url">
         <label for="elmail">Подписаться на рассылку</label><br />
         <input type="email" name="elmail" id="elmail" value="E-mail" />
 
         <input type="submit" value="Подписаться" />
-      </form>
-      <hr />
+      </form> -->
+      <!-- <hr /> -->
       <p lang="en">2020 | Developed by GoIT Students</p>
     </footer>
   </body>

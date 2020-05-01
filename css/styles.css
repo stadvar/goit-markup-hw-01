@@ -1,4 +1,6 @@
-.sattellite {
-  background-color: #0f96be;
-  /* background-color: #AFB1B8;*/
+.hero-section {
+  background: url('../images/Header.png') no-repeat;
+
+  width: 100%;
+  height: 600px;
 }
